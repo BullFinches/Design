@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#glav{
+    padding-top:30px;
+    padding-bottom:30px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width:80%;
+    height:auto;
+    background-color: #e1dfdf;
+    border-radius: 20px;
+}
+
+.Cardss{
+    transition-duration: 1s;
+    border-radius: 10px;
+    background-color:white;
+    width:40%;
+    min-height:300px;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+.Cardss:hover{
+    background:linear-gradient(to right top,rgb(0, 179, 255),rgb(68, 15, 153));   
+    color:white;
+    box-shadow: 0 10px 15px #6f6d6d;
+    cursor: pointer;
+    transition: all 0.7s;
+}
